@@ -1,0 +1,55 @@
+.conversation-container {
+    padding: 10px;
+}
+
+.users {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.message {
+    padding: 5px;
+    border-radius:10px;
+}
+ span {
+    display: inline-block;
+    padding: 10px 8px;
+    margin: 3px 0;
+    border-radius: 12px;
+    max-width: 50%;
+    word-wrap: break-word;
+    font-size: 14px;
+  } 
+  
+  /* Styling for messages sent by the user */
+  .user {
+    background-color: #d1ffd6;
+    color: #000;
+    text-align: right;
+    float: right;
+    border:solid #a4eaa1;
+  }
+  
+  /* Styling for messages received by the user */
+  .receiver {
+    background-color: #f0f0f0;
+    color: #000;
+    text-align: left;
+    float: left;
+    border:solid #ddd;
+  }
+  
+  /* Clear floats for the message container */
+  span:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+/* General message styling */ 
